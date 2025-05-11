@@ -19,6 +19,12 @@ body {
 	src: url('/fonts/comic-sans.woff2') format('woff2');
   }
 
+@media (max-width: 768px) {
+	body {
+		font-family: 'Baloo', sans-serif;	
+	}
+}
+
 .tm-white { color: #FFFFFF; }
 
 ul { padding: 0; margin: 0; }
